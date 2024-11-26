@@ -74,6 +74,7 @@ model Program {
   timeSlot          TimeSlot  @map("time_slot")
   sportCenter       String    @map("sport_center")
   sport             String   
+  personalTrainer   String    @map("personal_trainer")
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 }

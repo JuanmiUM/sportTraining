@@ -20,7 +20,7 @@ export default function HomeCard({
       <div className="flex grow items-center text-center justify-center">
         {mainContent}
       </div>
-      <div className={`flex justify-start text-left items-end text-[14px] text-gray-500 h-[48px]`}>
+      <div className={`flex justify-start text-left items-end text-[16px] text-gray-500 h-[48px]`}>
         {info}
       </div>
     </div>

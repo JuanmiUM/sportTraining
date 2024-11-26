@@ -3,7 +3,7 @@
 import HomeNoLogin from "@/components/pages/home/HomeNoLogin";
 import HomeLogin from "@/components/pages/home/HomeLogin";
 import { auth } from "@/auth";
-import Bienvenida from "@/components/msg/Bienvenida";
+import PageTitle from "@/components/ui/PageTitle";
 
 export default async function Home() {
   const session = await auth();
@@ -12,7 +12,7 @@ export default async function Home() {
     <main className="flex flex-col flex-1 items-center w-full">
       {session ? (
         <div className="flex flex-col flex-1 w-full px-8">
-          <Bienvenida name={session.user?.name || ""} />
+          <PageTitle text={session.user?.name || ""} welcome={true} />
           <div className="flex-1 flex items-center justify-center">
             <HomeLogin userId={session.user?.id || ""} />
           </div>
