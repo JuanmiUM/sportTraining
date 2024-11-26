@@ -2,8 +2,9 @@
 
 import React from "react";
 import * as z from "zod";
-import { useState, useTransition } from "react";
+import { useState, useTransition, useEffect } from "react";
 import { useForm } from "react-hook-form";
+import { useSearchParams } from "next/navigation";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { LoginSchema } from "@/schemas/index";
 import {
@@ -23,6 +24,14 @@ const Login = () => {
   const [isPending, startTransition] = useTransition();
   const [error, setError] = useState<string | undefined>("");
   const [showPassword, setShowPassword] = useState(false);
+  const params = useSearchParams();
+
+  useEffect(() => {
+    const error = params.get("error");
+    if (error == 'OAuthAccountNotLinked') {
+      setError("Esta cuenta ya está vinculada con otro proveedor.");
+    }
+  }, [params]);
 
   const form = useForm<z.infer<typeof LoginSchema>>({
     resolver: zodResolver(LoginSchema),

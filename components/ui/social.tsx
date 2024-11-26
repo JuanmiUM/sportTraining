@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import { signIn } from "next-auth/react";
 import { LOGIN_REDIRECT } from "@/lib/routes";
 
+
+
 export const Social = () => {
   const onClick = (provider: 'google' | 'github') => {
     signIn(provider, { 

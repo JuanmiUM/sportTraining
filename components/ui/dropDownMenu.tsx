@@ -30,10 +30,10 @@ export const DropDownMenu: React.FC<DropDownMenuProps> = ({
         <DropdownTrigger>
           {image ? (
             <Avatar
-              radius="lg"
+              radius="full"
               size="sm"
               isBordered
-              color="success"
+              color="default"
               as="button"
               showFallback
               className="transition-transform"
@@ -41,7 +41,7 @@ export const DropDownMenu: React.FC<DropDownMenuProps> = ({
             />
           ) : (
             <Avatar
-              radius="lg"
+              radius="full"
               color="secondary"
               size="sm"
               isBordered

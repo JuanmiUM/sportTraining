@@ -27,14 +27,17 @@ model User {
   id                      String    @id @default(cuid())
   name                    String?
   email                   String?   @unique
+  emailVerified           DateTime? @map("email_verified")
   password                String?
   birthdate               String?
   sport                   String?
   city                    String?
   image                   String?   @default("")
   recordarme              Boolean?  @default(false)
+  puntosEstrella          Int       @default(100)
   role                    UserRole  @default(USUARIO)
   accounts                Account[]
+  programas               Program[]
 }
 
 
@@ -55,4 +58,22 @@ model Account {
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([provider, providerAccountId])
+}
+
+enum TimeSlot {
+  MORNING
+  AFTERNOON
+}
+
+model Program {
+  id                String    @id @default(cuid())
+  userId            String    @map("user_id")
+  name              String
+  startDate         DateTime  @map("start_date")
+  numDays           Int
+  timeSlot          TimeSlot  @map("time_slot")
+  sportCenter       String    @map("sport_center")
+  sport             String   
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 }

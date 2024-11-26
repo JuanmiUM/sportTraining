@@ -16,9 +16,7 @@ export default async function Layout({
           {/* Header */}
         <Header />
         {/* Sección principal */}
-        <div className="flex-1 flex items-center justify-center">
           {children}
-        </div>
       </div>
       {/* Footer */}
         <Footer />
