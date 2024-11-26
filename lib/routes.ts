@@ -9,7 +9,7 @@ export const PRIVATE_ROUTES = [
 export const PUBLIC_ROUTES = [
   "/",
   "/home",
-  "/complejos",
+  "/centros-deportivos",
 ]
 
 export const AUTH_ROUTES = [

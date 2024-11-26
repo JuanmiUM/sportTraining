@@ -23,10 +23,10 @@ const Header: React.FC = async () => {
         {session ? (
           <div className="hidden md:flex md:gap-x-12">
             <Link
-              href="/complejos"
+              href="/centros-deportivos"
               className="px-2 border-2 border-background text-md font-semibold text-foreground hover:border-b-turquoise"
             >
-              Complejos
+              Centros Deportivos
             </Link>
             <Link
               href="/programas"
