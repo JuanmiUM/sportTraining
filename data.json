@@ -1,688 +1,871 @@
 {
   "centros_deportivos": [
-    {
-      "nombre": "Elite Fitness Center",
-      "ubicacion": "Barcelona",
-      "especialidades": ["CrossFit", "Yoga", "Boxeo"],
-      "instalaciones": [
-        {
-          "nombre": "Zona de CrossFit",
-          "tipo": "CrossFit",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Sala de Yoga 1",
-          "tipo": "Yoga",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Ring de Boxeo",
-          "tipo": "Boxeo",
-          "valoracion": 4.8
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Clase de CrossFit",
-          "monitor": "Laura Gómez",
-          "valoracion": 4.6
-        },
-        {
-          "nombre": "Yoga Avanzado",
-          "monitor": "Carlos Ruiz",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Boxeo para Principiantes",
-          "monitor": "Miguel Santos",
-          "valoracion": 4.7
-        }
-      ]
-    },
-    {
-      "nombre": "Oasis Sport Club",
-      "ubicacion": "Valencia",
-      "especialidades": ["Natación", "Pilates", "Fútbol"],
-      "instalaciones": [
-        {
-          "nombre": "Piscina Olímpica",
-          "tipo": "Natación",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Sala de Pilates",
-          "tipo": "Pilates",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Campo de Fútbol 11",
-          "tipo": "Fútbol",
-          "valoracion": 4.6
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Clase de Natación para Niños",
-          "monitor": "Ana López",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Pilates Rehabilitador",
-          "monitor": "María Torres",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Entrenamiento de Fútbol Avanzado",
-          "monitor": "Javier Hernández",
-          "valoracion": 4.5
-        }
-      ]
-    },
-    {
-      "nombre": "Summit Adventure Club",
-      "ubicacion": "Bilbao",
-      "especialidades": ["Escalada", "Senderismo", "Ciclismo"],
-      "instalaciones": [
-        {
-          "nombre": "Pared de Escalada Interior",
-          "tipo": "Escalada",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Circuito de Senderismo",
-          "tipo": "Senderismo",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Pista de Ciclismo Indoor",
-          "tipo": "Ciclismo",
-          "valoracion": 4.7
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Curso Básico de Escalada",
-          "monitor": "Raúl Martínez",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Excursión Guiada de Senderismo",
-          "monitor": "Elena Fernández",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Ciclismo en Grupo",
-          "monitor": "Luis Moreno",
-          "valoracion": 4.6
-        }
-      ]
-    },
-    {
-      "nombre": "Monster Training Hub",
-      "ubicacion": "Sevilla",
-      "especialidades": ["Spinning", "Pilates", "Zumba"],
-      "instalaciones": [
-        {
-          "nombre": "Pista de Atletismo",
-          "tipo": "Running",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Sala de Spinning",
-          "tipo": "Spinning",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Zona de Baile",
-          "tipo": "Zumba",
-          "valoracion": 4.9
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Running para Intermedios",
-          "monitor": "Carmen García",
-          "valoracion": 4.6
-        },
-        {
-          "nombre": "Spinning Extremo",
-          "monitor": "José Muñoz",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Clase de Zumba Fitness",
-          "monitor": "Sofía González",
-          "valoracion": 4.9
-        }
-      ]
-    },
-    {
-      "nombre": "Dark Town Sport Center",
-      "ubicacion": "Granada",
-      "especialidades": ["Golf", "Natación", "Tenis"],
-      "instalaciones": [
-        {
-          "nombre": "Campo de Golf",
-          "tipo": "Golf",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Piscina Climatizada",
-          "tipo": "Natación",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Cancha de Tenis",
-          "tipo": "Tenis",
-          "valoracion": 4.6
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Clase de Golf Básico",
-          "monitor": "Pablo López",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Natación Competitiva",
-          "monitor": "Andrea Pérez",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Clases de Tenis Individual",
-          "monitor": "Fernando Torres",
-          "valoracion": 4.5
-        }
-      ]
-    },
-    {
-      "nombre": "Gorilla Training Arena",
-      "ubicacion": "Zaragoza",
-      "especialidades": ["Esquí", "Snowboard", "Escalada"],
-      "instalaciones": [
-        {
-          "nombre": "Pista de Esquí Indoor",
-          "tipo": "Esquí",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Rampa de Snowboard",
-          "tipo": "Snowboard",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Muro de Escalada Profesional",
-          "tipo": "Escalada",
-          "valoracion": 4.7
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Esquí Avanzado",
-          "monitor": "Juan Gómez",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Snowboard para Principiantes",
-          "monitor": "María Jiménez",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Escalada para Equipos",
-          "monitor": "Lucía Sánchez",
-          "valoracion": 4.9
-        }
-      ]
-    },
-    {
-      "nombre": "Fitness Galaxy",
-      "ubicacion": "Madrid",
-      "especialidades": ["Zumba", "Body Pump", "Spinning"],
-      "instalaciones": [
-        {
-          "nombre": "Sala de Zumba",
-          "tipo": "Zumba",
-          "valoracion": 4.5
-        },
-        {
-          "nombre": "Sala de Body Pump",
-          "tipo": "Body Pump",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Zona de Spinning",
-          "tipo": "Spinning",
-          "valoracion": 4.6
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Clase de Zumba Intensiva",
-          "monitor": "Eva Sánchez",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Body Pump para Principiantes",
-          "monitor": "Juan Pérez",
-          "valoracion": 4.6
-        },
-        {
-          "nombre": "Sesión de Spinning Nocturna",
-          "monitor": "Marta López",
-          "valoracion": 4.7
-        }
-      ]
-    },
-    {
-      "nombre": "SportMax Center",
-      "ubicacion": "Sevilla",
-      "especialidades": ["Natación", "Baloncesto", "Ciclismo"],
-      "instalaciones": [
-        {
-          "nombre": "Piscina Semi-Olímpica",
-          "tipo": "Natación",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Cancha de Baloncesto",
-          "tipo": "Baloncesto",
-          "valoracion": 4.5
-        },
-        {
-          "nombre": "Pista de Ciclismo Exterior",
-          "tipo": "Ciclismo",
-          "valoracion": 4.6
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Natación Libre para Adultos",
-          "monitor": "Clara Jiménez",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Clínica de Tiros Libres",
-          "monitor": "David Martín",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Ruta Guiada en Bicicleta",
-          "monitor": "Sara Díaz",
-          "valoracion": 4.8
-        }
-      ]
-    },
-    {
-      "nombre": "Health Pro Club",
-      "ubicacion": "Málaga",
-      "especialidades": ["Pilates", "Karate", "Running"],
-      "instalaciones": [
-        {
-          "nombre": "Sala de Pilates 2",
-          "tipo": "Pilates",
-          "valoracion": 4.6
-        },
-        {
-          "nombre": "Tatami Principal",
-          "tipo": "Karate",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Pista de Atletismo",
-          "tipo": "Running",
-          "valoracion": 4.8
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Pilates Terapéutico",
-          "monitor": "Lucía Fernández",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Entrenamiento de Kata",
-          "monitor": "Antonio Gómez",
-          "valoracion": 4.6
-        },
-        {
-          "nombre": "Carrera Guiada",
-          "monitor": "Elena Ruiz",
-          "valoracion": 4.8
-        }
-      ]
-    },
-    {
-      "nombre": "Olympic Park",
-      "ubicacion": "Barcelona",
-      "especialidades": ["CrossFit", "Yoga", "Boxeo"],
-      "instalaciones": [
-        {
-          "nombre": "Zona de CrossFit",
-          "tipo": "CrossFit",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Sala de Yoga 1",
-          "tipo": "Yoga",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Ring de Boxeo",
-          "tipo": "Boxeo",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Sala de Pesas",
-          "tipo": "Musculación",
-          "valoracion": 4.6
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Clase de CrossFit",
-          "monitor": "Laura Gómez",
-          "valoracion": 4.6
-        },
-        {
-          "nombre": "Yoga Avanzado",
-          "monitor": "Carlos Ruiz",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Boxeo para Principiantes",
-          "monitor": "Miguel Santos",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Entrenamiento Funcional",
-          "monitor": "Rosa Díaz",
-          "valoracion": 4.5
-        }
-      ]
-    },
-    {
-      "nombre": "Oasis Sport Club",
-      "ubicacion": "Valencia",
-      "especialidades": ["Natación", "Pilates", "Fútbol"],
-      "instalaciones": [
-        {
-          "nombre": "Piscina Olímpica",
-          "tipo": "Natación",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Sala de Pilates",
-          "tipo": "Pilates",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Campo de Fútbol 11",
-          "tipo": "Fútbol",
-          "valoracion": 4.6
-        },
-        {
-          "nombre": "Sala de Masajes",
-          "tipo": "Recuperación",
-          "valoracion": 4.5
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Clase de Natación para Niños",
-          "monitor": "Ana López",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Pilates Rehabilitador",
-          "monitor": "María Torres",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Entrenamiento de Fútbol Avanzado",
-          "monitor": "Javier Hernández",
-          "valoracion": 4.5
-        },
-        {
-          "nombre": "Natación para Embarazadas",
-          "monitor": "Isabel Gómez",
-          "valoracion": 4.7
-        }
-      ]
-    },
-    {
-      "nombre": "Underworld Adv. Club",
-      "ubicacion": "Bilbao",
-      "especialidades": ["Escalada", "Senderismo", "Ciclismo"],
-      "instalaciones": [
-        {
-          "nombre": "Pared de Escalada Interior",
-          "tipo": "Escalada",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Circuito de Senderismo",
-          "tipo": "Senderismo",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Pista de Ciclismo Indoor",
-          "tipo": "Ciclismo",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Zona de Descanso",
-          "tipo": "Relajación",
-          "valoracion": 4.6
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Curso Básico de Escalada",
-          "monitor": "Raúl Martínez",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Excursión Guiada de Senderismo",
-          "monitor": "Elena Fernández",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Ciclismo en Grupo",
-          "monitor": "Luis Moreno",
-          "valoracion": 4.6
-        },
-        {
-          "nombre": "Escalada en Rocódromo",
-          "monitor": "Carlos Ortega",
-          "valoracion": 4.7
-        }
-      ]
-    },
-    {
-      "nombre": "Urban Training Hub",
-      "ubicacion": "Sevilla",
-      "especialidades": ["Running", "Spinning", "Zumba"],
-      "instalaciones": [
-        {
-          "nombre": "Pista de Atletismo",
-          "tipo": "Running",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Sala de Spinning",
-          "tipo": "Spinning",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Zona de Baile",
-          "tipo": "Zumba",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Sala de Yoga",
-          "tipo": "Yoga",
-          "valoracion": 4.6
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Running para Intermedios",
-          "monitor": "Carmen García",
-          "valoracion": 4.6
-        },
-        {
-          "nombre": "Spinning Extremo",
-          "monitor": "José Muñoz",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Clase de Zumba Fitness",
-          "monitor": "Sofía González",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Yoga para Principiantes",
-          "monitor": "Antonio Ruiz",
-          "valoracion": 4.7
-        }
-      ]
-    },
-    {
-      "nombre": "Green Valley SC",
-      "ubicacion": "Granada",
-      "especialidades": ["Golf", "Natación", "Tenis"],
-      "instalaciones": [
-        {
-          "nombre": "Campo de Golf",
-          "tipo": "Golf",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Piscina Climatizada",
-          "tipo": "Natación",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Cancha de Tenis",
-          "tipo": "Tenis",
-          "valoracion": 4.6
-        },
-        {
-          "nombre": "Sala de Recuperación",
-          "tipo": "Masajes",
-          "valoracion": 4.5
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Clase de Golf Básico",
-          "monitor": "Pablo López",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Natación Competitiva",
-          "monitor": "Andrea Pérez",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Clases de Tenis Individual",
-          "monitor": "Fernando Torres",
-          "valoracion": 4.5
-        },
-        {
-          "nombre": "Entrenamiento Personalizado de Golf",
-          "monitor": "Carlos Navarro",
-          "valoracion": 4.8
-        }
-      ]
-    },
-    {
-      "nombre": "Mountain Sports Arena",
-      "ubicacion": "Zaragoza",
-      "especialidades": ["Esquí", "Snowboard", "Escalada"],
-      "instalaciones": [
-        {
-          "nombre": "Pista de Esquí Indoor",
-          "tipo": "Esquí",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Rampa de Snowboard",
-          "tipo": "Snowboard",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Muro de Escalada Profesional",
-          "tipo": "Escalada",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Zona de Relajación",
-          "tipo": "Spa",
-          "valoracion": 4.6
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Esquí Avanzado",
-          "monitor": "Juan Gómez",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Snowboard para Principiantes",
-          "monitor": "María Jiménez",
-          "valoracion": 4.7
-        },
-        {
-          "nombre": "Escalada para Equipos",
-          "monitor": "Lucía Sánchez",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Snowboard Freestyle",
-          "monitor": "José Álvarez",
-          "valoracion": 4.6
-        }
-      ]
-    },
-    {
-      "nombre": "Fusion Fitness Club",
-      "ubicacion": "Madrid",
-      "especialidades": ["Boxeo", "CrossFit", "Kickboxing"],
-      "instalaciones": [
-        {
-          "nombre": "Ring de Boxeo",
-          "tipo": "Boxeo",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Zona de CrossFit",
-          "tipo": "CrossFit",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Pista de Kickboxing",
-          "tipo": "Kickboxing",
-          "valoracion": 4.7
-        }
-      ],
-      "actividades": [
-        {
-          "nombre": "Entrenamiento de Boxeo Avanzado",
-          "monitor": "Carlos Martínez",
-          "valoracion": 4.9
-        },
-        {
-          "nombre": "Clase de CrossFit para Principiantes",
-          "monitor": "Patricia Sánchez",
-          "valoracion": 4.8
-        },
-        {
-          "nombre": "Kickboxing para Iniciados",
-          "monitor": "Raúl Pérez",
-          "valoracion": 4.7
-        }
-      ]
-    }
-  ]
+      {
+          "nombre": "Elite Fitness Center",
+          "ubicacion": "Barcelona",
+          "especialidades": [
+              "CrossFit",
+              "Yoga",
+              "Boxeo"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Zona de CrossFit",
+                  "tipo": "CrossFit",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Sala de Yoga 1",
+                  "tipo": "Yoga",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Ring de Boxeo",
+                  "tipo": "Boxeo",
+                  "valoracion": 4.8
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Clase de CrossFit",
+                  "deporte": "CrossFit",
+                  "monitor": "Laura Gómez",
+                  "valoracion": 4.6
+              },
+              {
+                  "nombre": "Yoga Avanzado",
+                  "deporte": "Yoga",
+                  "monitor": "Carlos Ruiz",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Boxeo para Principiantes",
+                  "deporte": "Boxeo",
+                  "monitor": "Miguel Santos",
+                  "valoracion": 4.7
+              }
+          ]
+      },
+      {
+          "nombre": "Genisis Sport Club",
+          "ubicacion": "Logroño",
+          "especialidades": [
+              "Natación",
+              "Pilates",
+              "Fútbol"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Piscina Olímpica",
+                  "tipo": "Natación",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Sala de Pilates",
+                  "tipo": "Pilates",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Campo de Fútbol 11",
+                  "tipo": "Fútbol",
+                  "valoracion": 4.6
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Clase de Natación para Niños",
+                  "deporte": "Natación",
+                  "monitor": "Ana López",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Pilates Rehabilitador",
+                  "deporte": "Pilates",
+                  "monitor": "María Torres",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Entrenamiento de Fútbol Avanzado",
+                  "deporte": "Fútbol",
+                  "monitor": "Javier Hernández",
+                  "valoracion": 4.5
+              }
+          ]
+      },
+      {
+          "nombre": "Summit Adventure Club",
+          "ubicacion": "Bilbao",
+          "especialidades": [
+              "Escalada",
+              "Senderismo",
+              "Ciclismo"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Pared de Escalada Interior",
+                  "tipo": "Escalada",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Circuito de Senderismo",
+                  "tipo": "Senderismo",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Pista de Ciclismo Indoor",
+                  "tipo": "Ciclismo",
+                  "valoracion": 4.7
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Curso Básico de Escalada",
+                  "deporte": "Escalada",
+                  "monitor": "Raúl Martínez",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Excursión Guiada de Senderismo",
+                  "deporte": "Senderismo",
+                  "monitor": "Elena Fernández",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Ciclismo en Grupo",
+                  "deporte": "Ciclismo",
+                  "monitor": "Luis Moreno",
+                  "valoracion": 4.6
+              }
+          ]
+      },
+      {
+          "nombre": "Monster Training Hub",
+          "ubicacion": "Sevilla",
+          "especialidades": [
+              "Spinning",
+              "Pilates",
+              "Zumba"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Pista de Atletismo",
+                  "tipo": "Running",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Sala de Spinning",
+                  "tipo": "Spinning",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Zona de Baile",
+                  "tipo": "Zumba",
+                  "valoracion": 4.9
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Running para Intermedios",
+                  "deporte": "Running",
+                  "monitor": "Carmen García",
+                  "valoracion": 4.6
+              },
+              {
+                  "nombre": "Spinning Extremo",
+                  "deporte": "Spinning",
+                  "monitor": "José Muñoz",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Clase de Zumba Fitness",
+                  "deporte": "Zumba",
+                  "monitor": "Sofía González",
+                  "valoracion": 4.9
+              }
+          ]
+      },
+      {
+          "nombre": "Dark Town Sport Center",
+          "ubicacion": "Granada",
+          "especialidades": [
+              "Golf",
+              "Natación",
+              "Tenis"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Campo de Golf",
+                  "tipo": "Golf",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Piscina Climatizada",
+                  "tipo": "Natación",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Cancha de Tenis",
+                  "tipo": "Tenis",
+                  "valoracion": 4.6
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Clase de Golf Básico",
+                  "deporte": "Golf",
+                  "monitor": "Pablo López",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Natación Competitiva",
+                  "deporte": "Natación",
+                  "monitor": "Andrea Pérez",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Clases de Tenis Individual",
+                  "deporte": "Tenis",
+                  "monitor": "Fernando Torres",
+                  "valoracion": 4.5
+              }
+          ]
+      },
+      {
+          "nombre": "Gorilla Training Arena",
+          "ubicacion": "Zaragoza",
+          "especialidades": [
+              "Esquí",
+              "Snowboard",
+              "Escalada"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Pista de Esquí Indoor",
+                  "tipo": "Esquí",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Rampa de Snowboard",
+                  "tipo": "Snowboard",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Muro de Escalada Profesional",
+                  "tipo": "Escalada",
+                  "valoracion": 4.7
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Esquí Avanzado",
+                  "deporte": "Esquí",
+                  "monitor": "Juan Gómez",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Snowboard para Principiantes",
+                  "deporte": "Snowboard",
+                  "monitor": "María Jiménez",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Escalada para Equipos",
+                  "deporte": "Escalada",
+                  "monitor": "Lucía Sánchez",
+                  "valoracion": 4.9
+              }
+          ]
+      },
+      {
+          "nombre": "Fitness Galaxy",
+          "ubicacion": "Madrid",
+          "especialidades": [
+              "Zumba",
+              "Body Pump",
+              "Spinning"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Sala de Zumba",
+                  "tipo": "Zumba",
+                  "valoracion": 4.5
+              },
+              {
+                  "nombre": "Sala de Body Pump",
+                  "tipo": "Body Pump",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Zona de Spinning",
+                  "tipo": "Spinning",
+                  "valoracion": 4.6
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Clase de Zumba Intensiva",
+                  "deporte": "Zumba",
+                  "monitor": "Eva Sánchez",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Body Pump para Principiantes",
+                  "deporte": "Body Pump",
+                  "monitor": "Juan Pérez",
+                  "valoracion": 4.6
+              },
+              {
+                  "nombre": "Sesión de Spinning Nocturna",
+                  "deporte": "Spinning",
+                  "monitor": "Marta López",
+                  "valoracion": 4.7
+              }
+          ]
+      },
+      {
+          "nombre": "SportMax Center",
+          "ubicacion": "Sevilla",
+          "especialidades": [
+              "Natación",
+              "Baloncesto",
+              "Ciclismo"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Piscina Semi-Olímpica",
+                  "tipo": "Natación",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Cancha de Baloncesto",
+                  "tipo": "Baloncesto",
+                  "valoracion": 4.5
+              },
+              {
+                  "nombre": "Pista de Ciclismo Exterior",
+                  "tipo": "Ciclismo",
+                  "valoracion": 4.6
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Natación Libre para Adultos",
+                  "deporte": "Natación",
+                  "monitor": "Clara Jiménez",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Clínica de Tiros Libres",
+                  "deporte": "Baloncesto",
+                  "monitor": "David Martín",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Ruta Guiada en Bicicleta",
+                  "deporte": "Ciclismo",
+                  "monitor": "Sara Díaz",
+                  "valoracion": 4.8
+              }
+          ]
+      },
+      {
+          "nombre": "Health Pro Club",
+          "ubicacion": "Málaga",
+          "especialidades": [
+              "Pilates",
+              "Karate",
+              "Running"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Sala de Pilates 2",
+                  "tipo": "Pilates",
+                  "valoracion": 4.6
+              },
+              {
+                  "nombre": "Tatami Principal",
+                  "tipo": "Karate",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Pista de Atletismo",
+                  "tipo": "Running",
+                  "valoracion": 4.8
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Pilates Terapéutico",
+                  "deporte": "Pilates",
+                  "monitor": "Lucía Fernández",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Entrenamiento de Kata",
+                  "deporte": "Karate",
+                  "monitor": "Antonio Gómez",
+                  "valoracion": 4.6
+              },
+              {
+                  "nombre": "Carrera Guiada",
+                  "deporte": "Running",
+                  "monitor": "Elena Ruiz",
+                  "valoracion": 4.8
+              }
+          ]
+      },
+      {
+          "nombre": "Olympic Park",
+          "ubicacion": "Barcelona",
+          "especialidades": [
+              "CrossFit",
+              "Yoga",
+              "Boxeo"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Zona de CrossFit",
+                  "tipo": "CrossFit",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Sala de Yoga 1",
+                  "tipo": "Yoga",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Ring de Boxeo",
+                  "tipo": "Boxeo",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Sala de Pesas",
+                  "tipo": "Musculación",
+                  "valoracion": 4.6
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Clase de CrossFit",
+                  "deporte": "CrossFit",
+                  "monitor": "Laura Gómez",
+                  "valoracion": 4.6
+              },
+              {
+                  "nombre": "Yoga Avanzado",
+                  "deporte": "Yoga",
+                  "monitor": "Carlos Ruiz",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Boxeo para Principiantes",
+                  "deporte": "Boxeo",
+                  "monitor": "Miguel Santos",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Entrenamiento Funcional",
+                  "deporte": "CrossFit",
+                  "monitor": "Rosa Díaz",
+                  "valoracion": 4.5
+              }
+          ]
+      },
+      {
+          "nombre": "Oasis Sport Club",
+          "ubicacion": "Valencia",
+          "especialidades": [
+              "Natación",
+              "Pilates",
+              "Fútbol"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Piscina Olímpica",
+                  "tipo": "Natación",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Sala de Pilates",
+                  "tipo": "Pilates",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Campo de Fútbol 11",
+                  "tipo": "Fútbol",
+                  "valoracion": 4.6
+              },
+              {
+                  "nombre": "Sala de Masajes",
+                  "tipo": "Recuperación",
+                  "valoracion": 4.5
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Clase de Natación para Niños",
+                  "deporte": "Natación",
+                  "monitor": "Ana López",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Pilates Rehabilitador",
+                  "deporte": "Pilates",
+                  "monitor": "María Torres",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Entrenamiento de Fútbol Avanzado",
+                  "deporte": "Fútbol",
+                  "monitor": "Javier Hernández",
+                  "valoracion": 4.5
+              },
+              {
+                  "nombre": "Natación para Embarazadas",
+                  "deporte": "Natación",
+                  "monitor": "Isabel Gómez",
+                  "valoracion": 4.7
+              }
+          ]
+      },
+      {
+          "nombre": "Underworld Adv. Club",
+          "ubicacion": "Bilbao",
+          "especialidades": [
+              "Escalada",
+              "Senderismo",
+              "Ciclismo"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Pared de Escalada Interior",
+                  "tipo": "Escalada",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Circuito de Senderismo",
+                  "tipo": "Senderismo",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Pista de Ciclismo Indoor",
+                  "tipo": "Ciclismo",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Zona de Descanso",
+                  "tipo": "Relajación",
+                  "valoracion": 4.6
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Curso Básico de Escalada",
+                  "deporte": "Escalada",
+                  "monitor": "Raúl Martínez",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Excursión Guiada de Senderismo",
+                  "deporte": "Senderismo",
+                  "monitor": "Elena Fernández",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Ciclismo en Grupo",
+                  "deporte": "Ciclismo",
+                  "monitor": "Luis Moreno",
+                  "valoracion": 4.6
+              },
+              {
+                  "nombre": "Escalada en Rocódromo",
+                  "deporte": "Escalada",
+                  "monitor": "Carlos Ortega",
+                  "valoracion": 4.7
+              }
+          ]
+      },
+      {
+          "nombre": "Urban Training Hub",
+          "ubicacion": "Sevilla",
+          "especialidades": [
+              "Running",
+              "Spinning",
+              "Zumba"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Pista de Atletismo",
+                  "tipo": "Running",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Sala de Spinning",
+                  "tipo": "Spinning",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Zona de Baile",
+                  "tipo": "Zumba",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Sala de Yoga",
+                  "tipo": "Yoga",
+                  "valoracion": 4.6
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Running para Intermedios",
+                  "deporte": "Running",
+                  "monitor": "Carmen García",
+                  "valoracion": 4.6
+              },
+              {
+                  "nombre": "Spinning Extremo",
+                  "deporte": "Spinning",
+                  "monitor": "José Muñoz",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Clase de Zumba Fitness",
+                  "deporte": "Zumba",
+                  "monitor": "Sofía González",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Yoga para Principiantes",
+                  "deporte": "Yoga",
+                  "monitor": "Antonio Ruiz",
+                  "valoracion": 4.7
+              }
+          ]
+      },
+      {
+          "nombre": "Green Valley SC",
+          "ubicacion": "Granada",
+          "especialidades": [
+              "Golf",
+              "Natación",
+              "Tenis"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Campo de Golf",
+                  "tipo": "Golf",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Piscina Climatizada",
+                  "tipo": "Natación",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Cancha de Tenis",
+                  "tipo": "Tenis",
+                  "valoracion": 4.6
+              },
+              {
+                  "nombre": "Sala de Recuperación",
+                  "tipo": "Masajes",
+                  "valoracion": 4.5
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Clase de Golf Básico",
+                  "deporte": "Golf",
+                  "monitor": "Pablo López",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Natación Competitiva",
+                  "deporte": "Natación",
+                  "monitor": "Andrea Pérez",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Clases de Tenis Individual",
+                  "deporte": "Tenis",
+                  "monitor": "Fernando Torres",
+                  "valoracion": 4.5
+              },
+              {
+                  "nombre": "Entrenamiento Personalizado de Golf",
+                  "deporte": "Golf",
+                  "monitor": "Carlos Navarro",
+                  "valoracion": 4.8
+              }
+          ]
+      },
+      {
+          "nombre": "Mountain Sports Arena",
+          "ubicacion": "Zaragoza",
+          "especialidades": [
+              "Esquí",
+              "Snowboard",
+              "Escalada"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Pista de Esquí Indoor",
+                  "tipo": "Esquí",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Rampa de Snowboard",
+                  "tipo": "Snowboard",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Muro de Escalada Profesional",
+                  "tipo": "Escalada",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Zona de Relajación",
+                  "tipo": "Spa",
+                  "valoracion": 4.6
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Esquí Avanzado",
+                  "deporte": "Esquí",
+                  "monitor": "Juan Gómez",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Snowboard para Principiantes",
+                  "deporte": "Snowboard",
+                  "monitor": "María Jiménez",
+                  "valoracion": 4.7
+              },
+              {
+                  "nombre": "Escalada para Equipos",
+                  "deporte": "Escalada",
+                  "monitor": "Lucía Sánchez",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Snowboard Freestyle",
+                  "deporte": "Snowboard",
+                  "monitor": "José Álvarez",
+                  "valoracion": 4.6
+              }
+          ]
+      },
+      {
+          "nombre": "Fusion Fitness Club",
+          "ubicacion": "Madrid",
+          "especialidades": [
+              "Boxeo",
+              "CrossFit",
+              "Kickboxing"
+          ],
+          "instalaciones": [
+              {
+                  "nombre": "Ring de Boxeo",
+                  "tipo": "Boxeo",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Zona de CrossFit",
+                  "tipo": "CrossFit",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Pista de Kickboxing",
+                  "tipo": "Kickboxing",
+                  "valoracion": 4.7
+              }
+          ],
+          "actividades": [
+              {
+                  "nombre": "Entrenamiento de Boxeo Avanzado",
+                  "deporte": "Boxeo",
+                  "monitor": "Carlos Martínez",
+                  "valoracion": 4.9
+              },
+              {
+                  "nombre": "Clase de CrossFit para Principiantes",
+                  "deporte": "CrossFit",
+                  "monitor": "Patricia Sánchez",
+                  "valoracion": 4.8
+              },
+              {
+                  "nombre": "Kickboxing para Iniciados",
+                  "deporte": "Kickboxing",
+                  "monitor": "Raúl Pérez",
+                  "valoracion": 4.7
+              }
+          ]
+      }
+  ],
+  "deportes": [
+        "Baloncesto",
+        "Body Pump",
+        "Boxeo",
+        "Ciclismo",
+        "CrossFit",
+        "Escalada",
+        "Esquí",
+        "Fútbol",
+        "Golf",
+        "Karate",
+        "Kickboxing",
+        "Masajes",
+        "Musculación",
+        "Natación",
+        "Pilates",
+        "Recuperación",
+        "Relajación",
+        "Running",
+        "Senderismo",
+        "Snowboard",
+        "Spa",
+        "Spinning",
+        "Tenis",
+        "Yoga",
+        "Zumba"
+    ],
+    "monitores": [
+        "Ana López",
+        "Andrea Pérez",
+        "Antonio Gómez",
+        "Antonio Ruiz",
+        "Carlos Martínez",
+        "Carlos Navarro",
+        "Carlos Ortega",
+        "Carlos Ruiz",
+        "Carmen García",
+        "Clara Jiménez",
+        "David Martín",
+        "Elena Fernández",
+        "Elena Ruiz",
+        "Eva Sánchez",
+        "Fernando Torres",
+        "Isabel Gómez",
+        "Javier Hernández",
+        "José Muñoz",
+        "José Álvarez",
+        "Juan Gómez",
+        "Juan Pérez",
+        "Laura Gómez",
+        "Lucía Fernández",
+        "Lucía Sánchez",
+        "Luis Moreno",
+        "Marta López",
+        "María Jiménez",
+        "María Torres",
+        "Miguel Santos",
+        "Pablo López",
+        "Patricia Sánchez",
+        "Raúl Martínez",
+        "Raúl Pérez",
+        "Rosa Díaz",
+        "Sara Díaz",
+        "Sofía González"
+    ]
 }

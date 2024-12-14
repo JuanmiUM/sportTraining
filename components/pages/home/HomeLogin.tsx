@@ -18,7 +18,7 @@ export default async function HomeLogin({ userId }: HomeLoginProps) {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
       <HomeCard
         title="Nuevo Programa de Entrenamiento"
-        mainContent={<CustomButton text="Crear Nuevo" link="/nuevo-programa" />}
+        mainContent={<CustomButton text="Crear Nuevo" link="/programas/nuevo-programa" />}
         info="Crea y personaliza tu programa de entrenamiento ahora"
       />
       <HomeCard

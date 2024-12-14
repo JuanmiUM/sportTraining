@@ -1,8 +1,13 @@
-import Programas from "@/components/pages/Programas";
+'use server'
 
-const ProgramasPage = () => {
+import Programas from "@/components/pages/Programas";
+import { auth } from "@/auth";
+
+const ProgramasPage = async () => {
+  const session = await auth();
+
   return (
-      <Programas />
+      <Programas userId={session?.user?.id || ""} />
   );
 }
 

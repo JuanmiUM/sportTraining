@@ -43,3 +43,21 @@ export const NewPasswordSchema = z.object({
   password2: z.string({ required_error: "La contraseña es obligatoria" })
     .min(6, "Mínimo 6 caracteres requeridos")
 });
+
+export const NewProgramSchema = z.object({
+  startDate: z.string()
+    .min(1, "La fecha de inicio es obligatoria.")
+    .refine(date => new Date(date) >= new Date(), "La fecha de inicio no puede ser anterior o igual a la actual"),
+  numDays: z.number()
+    .min(1, { message: "El número de días debe ser mayor a 0" })
+    .nonnegative("El número de días no puede ser negativo."),
+  timeSlot: z.string()
+    .regex(/^(MAÑANAS|TARDES)$/, "La franja horaria debe ser 'MAÑANAS' o 'TARDES'.")
+    .min(1, "La franja horaria es obligatoria."),
+  center: z.string({ required_error: "El centro deportivo es obligatorio" })
+    .min(1, "El centro deportivo es obligatorio")
+    .max(32, "Máximo 32 caracteres"),
+  sport: z.string({ required_error: "El deporte es obligatorio" })
+    .min(1, "El deporte es obligatorio")
+    .max(32, "Máximo 32 caracteres"),
+});

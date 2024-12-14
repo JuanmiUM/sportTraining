@@ -1,9 +1,9 @@
 export const PRIVATE_ROUTES = [
   "/programas",
+  "/programas/nuevo-programa",
   "/perfil",
   "/lista-usuarios",
   "/actividades",
-  "/pasarela-pago"
 ]
 
 export const PUBLIC_ROUTES = [

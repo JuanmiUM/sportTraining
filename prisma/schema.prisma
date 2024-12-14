@@ -60,18 +60,13 @@ model Account {
   @@unique([provider, providerAccountId])
 }
 
-enum TimeSlot {
-  MORNING
-  AFTERNOON
-}
-
 model Program {
   id                String    @id @default(cuid())
   userId            String    @map("user_id")
   name              String
   startDate         DateTime  @map("start_date")
   numDays           Int
-  timeSlot          TimeSlot  @map("time_slot")
+  timeSlot          String  @map("time_slot")
   sportCenter       String    @map("sport_center")
   sport             String   
   personalTrainer   String    @map("personal_trainer")

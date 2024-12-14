@@ -20,7 +20,7 @@ const Header: React.FC = async () => {
             <img alt="Blue Logo" src={logo.src} className="h-16 w-auto" />
           </a>
         </div>
-        {session ? (
+        {session?.user.role == "USUARIO" && (
           <div className="hidden md:flex md:gap-x-12">
             <Link
               href="/centros-deportivos"
@@ -35,7 +35,19 @@ const Header: React.FC = async () => {
               Programas
             </Link>
           </div>
-        ) : null}
+        )}
+
+        {session?.user.role == "GESTOR" || session?.user.role == "ENTRENADOR" || session?.user.role == "MONITOR" && (
+          <div className="hidden md:flex md:gap-x-12">
+            <Link
+              href="/centros-deportivos"
+              className="px-2 border-2 border-background text-md font-semibold text-foreground hover:border-b-turquoise"
+            >
+              Centros Deportivos
+            </Link>
+          </div>
+        )}
+
         {session ? (
           <div className="hidden md:flex md:flex-1 md:justify-end sm:items-center md:space-x-4">
             <DropDownMenu

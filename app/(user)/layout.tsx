@@ -14,11 +14,11 @@ export default async function Layout({
       <main>
         <div className="min-h-screen flex flex-col ">
           {/* Header */}
-        <Header />
-        {/* Sección principal */}
+          <Header />
+          {/* Sección principal */}
           {children}
-      </div>
-      {/* Footer */}
+        </div>
+        {/* Footer */}
         <Footer />
       </main>
     </SessionProvider>
