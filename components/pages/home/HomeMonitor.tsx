@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { Switch, Avatar } from "@nextui-org/react";
 
 export default function AsistenciaInterface() {
