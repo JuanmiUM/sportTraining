@@ -1,11 +1,9 @@
 'use client'
 
-import { redirect, useRouter } from "next/navigation";
+import { redirect } from "next/navigation";
 import data from "@/data.json";
 
 export default function CenterPage({ params }: { params: { id: string } }) {
-
-  const router = useRouter();
 
   const center = data.centros_deportivos.find(
     (center) => center.nombre.toLowerCase().replace(/\s+/g, '-') === params.id

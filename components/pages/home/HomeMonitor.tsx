@@ -71,7 +71,7 @@ export default function AsistenciaInterface() {
     },
   ];
 
-  const [users, setUsers] = useState(initialUsers);
+  const users = initialUsers;
 
   return (
     <div className="container mx-auto p-6">

@@ -102,13 +102,13 @@ export default function EntrenadorInterface() {
 
   const [programs, setPrograms] = useState(initialPrograms);
 
-  const handleAction = (programId: any) => {
+  const handleAction = (programId: number) => {
     setPrograms((prevPrograms) =>
       prevPrograms.filter((program) => program.id !== programId)
     );
   };
 
-  const formatDateToDDMMYYYY = (date: any) => {
+  const formatDateToDDMMYYYY = (date: string) => {
     const d = new Date(date);
     const day = String(d.getDate()).padStart(2, "0");
     const month = String(d.getMonth() + 1).padStart(2, "0");

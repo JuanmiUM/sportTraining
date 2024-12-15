@@ -1,7 +1,7 @@
 "use server";
 
 
-import { ChartColumn, Settings, BookUser, History, CircleHelp, Star, Lightbulb, LogOut } from "lucide-react"
+import { ChartColumn, Settings, BookUser, History, CircleHelp, Star, Lightbulb } from "lucide-react"
 import React from "react";
 import Switch from "@/components/ui/switch";
 import { auth } from "@/auth";

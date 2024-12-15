@@ -29,8 +29,8 @@ import { FormSuccess } from "@/components/msg/FormSuccess";
 import { registerProgram } from "@/actions/new-program";
 
 const NuevoPrograma = () => {
-  const [sports, setSports] = useState(data.deportes);
-  const [centers, setCenters] = useState(data.centros_deportivos);
+  const sports = data.deportes;
+  const centers = data.centros_deportivos;
   const [filteredCenters, setFilteredCenters] = useState(centers);
   const [filteredSports, setFilteredSports] = useState(sports);
   const [isPending, startTransition] = useTransition();

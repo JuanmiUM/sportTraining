@@ -35,7 +35,4 @@ export default async function RootLayout({
       </html>
   );
 }
-function getServerSession(authOptions: any) {
-  throw new Error("Function not implemented.");
-}
 

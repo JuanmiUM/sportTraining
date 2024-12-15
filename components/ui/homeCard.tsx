@@ -1,8 +1,10 @@
+import React from "react";
+
 interface HomeCardProps {
   title: string;
-  mainContent: any;
-  icon?: any;
-  info: any;
+  mainContent: React.ReactNode;
+  icon?: React.ReactNode;
+  info: string;
 }
 
 export default function HomeCard({
