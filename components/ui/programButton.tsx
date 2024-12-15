@@ -138,7 +138,7 @@ export default function ProgramButton({
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  Modificar fecha de inicio
+                  Eliminar programa de entrenamiento
                 </ModalHeader>
                 <ModalBody>
                   <div className="flex max-w-sm flex-wrap md:flex-nowrap mb-6 md:mb-0 gap-4">
