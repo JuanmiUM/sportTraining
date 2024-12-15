@@ -51,7 +51,6 @@ const Login = () => {
             setError(res.error);
           }
         })
-        .catch(() => setError("Something went wrong!"));
     });
   };
 
